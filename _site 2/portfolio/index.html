@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+
+
+
+
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Primary Meta Tags -->
+	<title>
+		Portfolio | Dante Jekyll Theme for Static Site Generators
+	</title>
+	<meta name="title" content="
+		Portfolio | Dante Jekyll Theme for Static Site Generators
+	">
+	
+
+	
+	<meta name="description" content="Dante Portfolio page">
+	<meta property="og:description" content="Dante Portfolio page">	
+	<meta property="twitter:description" content="Dante Portfolio page">
+	
+	
+
+	
+	<meta property="og:type" content="website">
+	
+
+
+	<meta property="og:title" content="
+		Portfolio | Dante Jekyll Theme for Static Site Generators
+	">
+	<meta property="og:url" content="/portfolio/">
+
+
+	
+
+	<link rel="canonical" href="http://localhost:6060">
+
+	
+
+	
+	
+	<meta property="og:image" content="/assets/images/logo/siteicon.png">
+	<meta property="twitter:image" content="/assets/images/logo/siteicon.png">
+	
+
+	<!-- Twitter -->
+
+	
+
+	<meta name="twitter:creator" content="">
+
+	
+
+
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="/portfolio/">
+	<meta property="twitter:title" content="
+		Portfolio | Dante Jekyll Theme for Static Site Generators
+	">
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "website",
+			"name": "Dante Jekyll Theme for Static Site Generators",
+			"image": "/assets/images/logo/siteicon.png",
+			"logo": "/assets/images/logo/dante-logo.svg",
+			"url": "",
+		}
+	</script>
+	<!-- favicon -->
+	<link rel="icon" href="/assets/images/logo/siteicon.png" type="image/png" sizes="16x16">
+	<!-- touch-icons -->
+	<link rel="shortcut icon" href="/assets/images/logo/siteicon.png">
+	<link rel="apple-touch-icon-precomposed" href="/assets/images/logo/siteicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/logo/siteicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/logo/siteicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/logo/siteicon.png">
+	<!-- main css -->
+	<link rel="stylesheet" href="/assets/main.css">
+	<!-- fontawesome css -->
+	<link rel="stylesheet" href="/assets/css/lib/fontawesome/all.css" type="text/css" media="screen" />
+	<!-- bootstrap jquery -->
+	<script src="/assets/js/jquery-3.3.1.slim.min.js"></script>
+	<!-- google fonts -->
+	
+		
+			<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500&family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+		
+	
+</head>
+	
+
+ 
+<div class="c-header 
+			fixed-top">
+	<div class="navbar 
+				c-header__navbar 
+				navbar-expand-lg 
+				mainmenu">
+		<div class="container">
+			
+				<a class="navbar-brand 
+						  c-header__navbar-brand" 
+				   href="/">
+				   <img src="/assets/images/logo/dante-logo.svg" 
+				   		alt="logo" 
+				   		class="img-fluid">
+				</a>
+			
+
+			
+				<div class="c-header__header-widget 
+							order-lg-2 
+							d-none 
+							d-md-block">
+					
+						<a class="btn 
+								  btn-link 
+								  c-header__login" 
+						   href="#">Login</a>
+					
+					
+						<a class="btn 
+								  c-header__sign-up" 
+						   href="#">Sign up</a>
+					
+				</div>
+			
+
+			<!-- navbar toggler icon -->
+			<button onclick="navbartoggle(this)" 
+					class="c-header__mobile-nav-button 
+						  navbar-toggler" 
+					type="button" 
+					data-toggle="collapse" 
+					data-target="#navbarNavDropdown" 
+					aria-controls="navbarNavDropdown" 
+					aria-expanded="false" 
+					aria-label="Toggle navigation">
+				<span>
+					<div class="c-header__toggle-bar1"></div>
+					<div class="c-header__toggle-bar2"></div>
+					<div class="c-header__toggle-bar3"></div>
+				</span>
+			</button>
+
+			<!-- Main navigation -->
+			<nav class="collapse 
+						navbar-collapse 
+						justify-content-center" 
+				 id="navbarNavDropdown">
+				<ul class="navbar-nav 
+						   c-header__navbar-nav">
+					
+						
+							<li>
+								<a class="nav-link 
+										  c-header__nav-link 
+										   
+										  " 
+								   href="/">Home</a>
+							</li>
+						
+					
+						
+							<li>
+								<a class="nav-link 
+										  c-header__nav-link 
+										   
+										  " 
+								   href="/about/">About</a>
+							</li>
+						
+					
+						
+							<li>
+								<a class="nav-link 
+										  c-header__nav-link 
+										   
+										  active" 
+								   href="/portfolio/">Portfolio</a>
+							</li>
+						
+					
+						
+							<li>
+								<a class="nav-link 
+										  c-header__nav-link 
+										   
+										  " 
+								   href="/blog/">Blog</a>
+							</li>
+						
+					
+						
+							<li>
+								<a class="nav-link 
+										  c-header__nav-link 
+										   
+										  " 
+								   href="/contact/">Contact</a>
+							</li>
+						
+					
+				</ul>
+				
+					<div class="ml-3 
+								d-md-none 
+								d-lg-none">
+						
+							<!-- login link -->
+							<a class="btn 
+									  c-header__header-login" 
+							   href="#">Login</a>
+						
+						<br>
+						
+							<!-- signup link -->
+							<a class="btn 
+									  header-sign-up 
+									  c-header__secondary-signup" 
+							   href="#">Sign up</a>
+						
+					</div>
+				
+			</nav>
+		</div>
+	</div>
+</div>
+
+<div class="c-header__header-height"></div>
+<!-- header section ends -->
+
+
+	<body class="Portfolio">
+
+		<!-- bookshop data starts -->
+		<div data-bookshop-live="page" data-bookshop-props="page">
+			<!--bookshop-live meta(version="3.0.1" baseurl="" title="") -->
+<!--bookshop-live name(page.jekyll.html) params(content_blocks=page.content_blocks) context() -->
+
+    <div class="c-page Portfolio">
+        
+            <!--bookshop-live name(hero-content-section/hero-content-section.jekyll.html) params(bind=block) context(block=content_blocks[0]) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="c-hero-content c-hero-content-1">
+
+	
+	<div class="
+					container
+				">
+		<div class="row">
+
+			<div class="col-lg-6 
+						col-md-12 
+						 
+						order-2 
+						align-self-end 
+						c-hero-content__column 
+						c-hero-content__content">
+				
+
+				
+
+				
+					<div class="c-hero-content__description">
+						<p><p>Every product we build has a different story. We join our clients&rsquo; teams as a tech partner to overcome challenges and help them grow.</p></p>
+					</div>
+				
+
+				
+			</div>
+
+			<div class="col-lg-6 
+						col-md-12 
+						 
+						order-1 
+						align-self-end 
+						c-hero-content__image 
+						c-hero-content__column">
+				
+					<img class="img-fluid" 
+						 src="/assets/images/portfolio/hero-illustration.jpg" 
+						 alt="Hero image"
+						 style="object-fit: contain" />
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--bookshop-live end-->
+        
+            <!--bookshop-live name(spacer-section/spacer-section.jekyll.html) params(bind=block) context(block=content_blocks[1]) -->
+
+<div class="c-spacer" style="height:30px;">
+</div>
+
+<!--bookshop-live end-->
+        
+    </div>
+
+
+<!--bookshop-live end-->
+		</div>
+
+		
+
+<section class="l-portfolio">
+	<div class="container">
+		<div class="l-portfolio__tabs-wrapper">
+			<ul class="nav nav-tabs l-portfolio__tabs">
+				<li><a class="btn active" data-toggle="tab" href="#all"><span>All</span></a></li>
+				<li><a class="btn" data-toggle="tab" href=""><span>Web Development</span></a></li>
+				<li><a class="btn" data-toggle="tab" href=""><span>Mobile Development</span></a></li>
+				<li><a class="btn" data-toggle="tab" href=""><span>Digital product design</span></a></li>
+				<li><a class="btn" data-toggle="tab" href=""><span>Cloud &amp; DevOps</span></a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div id="all" 
+					 class="tab-pane active">
+					<div class="row l-portfolio__archive" 
+						 data-pagebreak="6">
+						
+							<div class="col-md-4 mb-5 
+										portfolio-item">
+								<div class="l-portfolio__portfolio-item">
+									
+										<a href="/portfolio/project-1/">
+											<div class="l-portfolio__item-image-wrapper">
+												<div class="l-portfolio__item-image" 
+													 style="background-image: url('/assets/images/portfolio/project-1.jpg');">
+												</div>
+											</div>
+										</a>
+									
+									<h3 class="l-portfolio__item-title"><a href="/portfolio/project-1/">Project 1</a></h3>
+									<p class="l-portfolio__item-description"><p>Risus habitasse dignissim integer egestas Vitae magna et senectus odio....</p>
+								</div>
+							</div>
+						
+							<div class="col-md-4 mb-5 
+										portfolio-item">
+								<div class="l-portfolio__portfolio-item">
+									
+										<a href="/portfolio/project-2/">
+											<div class="l-portfolio__item-image-wrapper">
+												<div class="l-portfolio__item-image" 
+													 style="background-image: url('/assets/images/portfolio/project-2.jpg');">
+												</div>
+											</div>
+										</a>
+									
+									<h3 class="l-portfolio__item-title"><a href="/portfolio/project-2/">Project 2</a></h3>
+									<p class="l-portfolio__item-description"><p>Pellentesque adipiscing pharetra phasellus est nulla venenatis ligula Pharetra. Scelerisque...</p>
+								</div>
+							</div>
+						
+							<div class="col-md-4 mb-5 
+										portfolio-item">
+								<div class="l-portfolio__portfolio-item">
+									
+										<a href="/portfolio/project-3/">
+											<div class="l-portfolio__item-image-wrapper">
+												<div class="l-portfolio__item-image" 
+													 style="background-image: url('/assets/images/portfolio/project-3.jpg');">
+												</div>
+											</div>
+										</a>
+									
+									<h3 class="l-portfolio__item-title"><a href="/portfolio/project-3/">Project 3</a></h3>
+									<p class="l-portfolio__item-description"><p>Turpis aenean ut neque, pellentesque quam, Nam neque in sed...</p>
+								</div>
+							</div>
+						
+							<div class="col-md-4 mb-5 
+										portfolio-item">
+								<div class="l-portfolio__portfolio-item">
+									
+										<a href="/portfolio/project-4/">
+											<div class="l-portfolio__item-image-wrapper">
+												<div class="l-portfolio__item-image" 
+													 style="background-image: url('/assets/images/portfolio/project-4.jpg');">
+												</div>
+											</div>
+										</a>
+									
+									<h3 class="l-portfolio__item-title"><a href="/portfolio/project-4/">Project 4</a></h3>
+									<p class="l-portfolio__item-description"><p>Lectus sit scelerisque risus, orci interdum gravida egestas eros volutpat...</p>
+								</div>
+							</div>
+						
+							<div class="col-md-4 mb-5 
+										portfolio-item">
+								<div class="l-portfolio__portfolio-item">
+									
+										<a href="/portfolio/project-5/">
+											<div class="l-portfolio__item-image-wrapper">
+												<div class="l-portfolio__item-image" 
+													 style="background-image: url('/assets/images/portfolio/project-5.jpg');">
+												</div>
+											</div>
+										</a>
+									
+									<h3 class="l-portfolio__item-title"><a href="/portfolio/project-5/">Project 5</a></h3>
+									<p class="l-portfolio__item-description"><p>Sagittis eu luctus feugiat massa. Sit augue in tristique auctor...</p>
+								</div>
+							</div>
+						
+							<div class="col-md-4 mb-5 
+										portfolio-item">
+								<div class="l-portfolio__portfolio-item">
+									
+										<a href="/portfolio/project-6/">
+											<div class="l-portfolio__item-image-wrapper">
+												<div class="l-portfolio__item-image" 
+													 style="background-image: url('/assets/images/portfolio/project-6.jpg');">
+												</div>
+											</div>
+										</a>
+									
+									<h3 class="l-portfolio__item-title"><a href="/portfolio/project-6/">Project 6</a></h3>
+									<p class="l-portfolio__item-description"><p>Mi fermentum amet sodales tellus id lorem ante pellentesque vulputate....</p>
+								</div>
+							</div>
+						
+							<div class="col-md-4 mb-5 
+										portfolio-item">
+								<div class="l-portfolio__portfolio-item">
+									
+										<a href="/portfolio/project-7/">
+											<div class="l-portfolio__item-image-wrapper">
+												<div class="l-portfolio__item-image" 
+													 style="background-image: url('/assets/images/portfolio/project-7.jpg');">
+												</div>
+											</div>
+										</a>
+									
+									<h3 class="l-portfolio__item-title"><a href="/portfolio/project-7/">Project 7</a></h3>
+									<p class="l-portfolio__item-description"><p>Sagittis odio ullamcorper urna, imperdiet tellus tempor pellentesque volutpat. Scelerisque...</p>
+								</div>
+							</div>
+						
+							<div class="col-md-4 mb-5 
+										portfolio-item">
+								<div class="l-portfolio__portfolio-item">
+									
+										<a href="/portfolio/project-8/">
+											<div class="l-portfolio__item-image-wrapper">
+												<div class="l-portfolio__item-image" 
+													 style="background-image: url('/assets/images/portfolio/project-8.jpg');">
+												</div>
+											</div>
+										</a>
+									
+									<h3 class="l-portfolio__item-title"><a href="/portfolio/project-8/">Project 8</a></h3>
+									<p class="l-portfolio__item-description"><p>Pharetra sit massa nisl et, porttitor platea lacus, id lacus...</p>
+								</div>
+							</div>
+						
+							<div class="col-md-4 mb-5 
+										portfolio-item">
+								<div class="l-portfolio__portfolio-item">
+									
+										<a href="/portfolio/project-9/">
+											<div class="l-portfolio__item-image-wrapper">
+												<div class="l-portfolio__item-image" 
+													 style="background-image: url('/assets/images/portfolio/project-9.jpg');">
+												</div>
+											</div>
+										</a>
+									
+									<h3 class="l-portfolio__item-title"><a href="/portfolio/project-9/">Project 9</a></h3>
+									<p class="l-portfolio__item-description"><p>Amet porta justo enim, lorem at et vel magna vitae...</p>
+								</div>
+							</div>
+						
+					</div>
+					<div class="text-center">
+						<a class="btn button-standard" href="" data-pagebreak-control="prev">Previous</a>
+						<a class="btn button-standard" href="" data-pagebreak-control="next">Next</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="c-footer">
+	<div class="container">
+		
+			<div class="row">
+				<div class="col-lg-4">
+						<div class="c-footer__footer-column">
+							
+								<div class="c-footer__footer-logo">
+									<a href="/" 
+									   style="background-image: url('/assets/images/logo/dante-wht-image.svg')"></a>
+								</div>
+							
+							<div class="c-footer__footer-content">
+								
+									<p>Maecenas viverra malesuada erat sit ut commodo lacus amet, convallis. Lobortis egestas parturient nunc</p>
+								
+							</div>
+
+							
+								<div class="c-footer__copyright-social-icon">
+									<ul class="list-inline text-left">
+										
+											<!-- Youtube link -->
+											<li class="list-inline-item">
+												<a href="#"><i class="fab fa-youtube"></i></a>
+											</li>
+										
+										
+											<!-- Twitter link -->
+											<li class="list-inline-item">
+												<a href="#"><i class="fab fa-twitter"></i></a>
+											</li>
+										
+										
+											<!-- Instagram link -->
+											<li class="list-inline-item">
+												<a href="#"><i class="fab fa-instagram"></i></a>
+											</li>
+										
+									</ul>
+								</div>
+							
+						</div>
+				</div>
+
+				<div class="col-lg-8">
+					<div class="row">
+						
+							<div class="col-lg-4 col-md-6 col-6 c-footer__footer-column">
+								
+									<h4 class="c-footer__footer-heading">About</h4>
+								
+								<ul class="list-unstyled">
+									
+										<li>
+											
+												
+												
+													<a href="/about/">About us</a>
+												
+											
+										</li>
+									
+										<li>
+											
+												
+												
+													<a href="#">Features</a>
+												
+											
+										</li>
+									
+										<li>
+											
+												
+												
+													<a href="#">News</a>
+												
+											
+										</li>
+									
+										<li>
+											
+												
+												
+													<a href="#">Careers</a>
+												
+											
+										</li>
+									
+								</ul>
+							</div>
+							
+						
+							<div class="col-lg-4 col-md-6 col-6 c-footer__footer-column">
+								
+									<h4 class="c-footer__footer-heading">Company</h4>
+								
+								<ul class="list-unstyled">
+									
+										<li>
+											
+												
+												
+													<a href="/team/">Our team</a>
+												
+											
+										</li>
+									
+										<li>
+											
+												
+												
+													<a href="#">Partner with us</a>
+												
+											
+										</li>
+									
+										<li>
+											
+												
+												
+													<a href="#">FAQ</a>
+												
+											
+										</li>
+									
+										<li>
+											
+												
+												
+													<a href="/blog/">Blog</a>
+												
+											
+										</li>
+									
+								</ul>
+							</div>
+							
+						
+							<div class="col-lg-4 col-md-6 col-6 c-footer__footer-column">
+								
+									<h4 class="c-footer__footer-heading">Support</h4>
+								
+								<ul class="list-unstyled">
+									
+										<li>
+											
+												
+												
+													<a href="#">Account</a>
+												
+											
+										</li>
+									
+										<li>
+											
+												
+												
+													<a href="#">Support center</a>
+												
+											
+										</li>
+									
+										<li>
+											
+												
+												
+													<a href="#">Feedback</a>
+												
+											
+										</li>
+									
+										<li>
+											
+												
+												
+													<a href="/contact/">Contact us</a>
+												
+											
+										</li>
+									
+								</ul>
+							</div>
+							
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="c-footer__footer-copyright">
+				<div class="c-footer__copyright-text">
+					
+							
+							<p>Copyright © Dante 2021. All rights reserved.</p>
+						
+					
+				</div>
+			</div>
+		</div>
+</footer>
+		<!-- footer script version 1.0.0 -->
+<!-- bootstrap script -->
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery-latest.min.js"></script>
+
+<script>
+    /* navbar toggler script for header starts */
+    function navbartoggle(x) {
+      x.classList.toggle("change");
+    }
+    /* navbar toggler script for header ends */
+    $('.number-counter .number-counter__number-counter-column_counter-count .count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 4000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+
+
+
+    $('#contact-submit').click(function() {
+      var first_name=$('#contact_first_name').val();
+      var last_name=$('#contact_last_name').val();
+      var email=$('#contact_email').val();
+      if ( first_name != "" && last_name != "" && email!= "" ){
+     $('.contact-section__contact-form .contact-section__contact-form_success').css('display','block');
+      setTimeout(function(){
+      $('.contact-section__contact-form .contact-section__contact-form_success').css('display','none');
+      }, 3000);
+     $('#contact_first_name').val("");
+     $('#contact_last_name').val("");
+     $('#contact_email').val("");
+     $('#contact_textarea').val("");
+   }else{
+     setTimeout(function(){
+      $('.contact-section__contact-form .contact-section__contact-form_success').css('display','none');
+      }, 3000);
+   }
+  });
+
+
+</script>
+
+
+	</body>
+</html>
