@@ -26,7 +26,7 @@ navbar-links:
     # - Learn markdown: "https://www.markdowntutorial.com/"
   Posts: "https://yiraqiu.github.io/"
   Project: "https://yiraqiu.github.io/project"
-  Google: "https://www.google.com"
+  # Google: "https://www.google.com"
   # Tags: "https://yiraqiu.github.io/tags"
   My GitHub: "https://github.com/yiraqiu"
   # Author's home: "https://deanattali.com"
