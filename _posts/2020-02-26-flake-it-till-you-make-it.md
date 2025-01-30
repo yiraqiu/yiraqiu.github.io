@@ -1,19 +1,23 @@
 ---
 layout: post
 title: Fake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+subtitle: Or How I Taught Excel Sheets to Speak Python
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/smile.jpg
 share-img: /assets/img/path.jpg
-tags: [project, test]
-tags: [Project]
+tags: [story, personality]
+tags: [story]
 author: Emily Qiu
 ---
 
-Sample paragraph
+Let me tell you a secret: the first time I tried to write a Python loop, I accidentally created an infinite vortex that nearly swallowed my laptop. There I was—a recovering finance nerd who could balance a spreadsheet in her sleep but thought “Java” was a coffee order—staring at an error message that basically said, “Nice try, rookie.”
 
-The truth is that no one else can definitively know the path we are here to walk. It’s tempting to listen—many of us long for the omnipotent other—but unless they are genuine psychic intuitives, they can’t know. All others can know is their own truth, and if they’ve actually done the work to excavate it, they will have the good sense to know that they cannot genuinely know anyone else’s. Only soul knows the path it is here to walk. Since you are the only one living in your temple, only you can know its scriptures and interpretive structure.
+But here’s the thing about faking it: you only need to look competent until you become competent. When I swapped stock charts for code editors, I didn’t just “transition careers.” I became a linguistic smuggler, sneaking financial logic into programming syntax. Those years obsessing over quarterly reports? Turns out debugging a recursive function that leaks memory like a sinking hedge fund isn’t so different.
 
-At the heart of the struggle are two very different ideas of success—survival-driven and soul-driven. For survivalists, success is security, pragmatism, power over others. Success is the absence of material suffering, the nourishing of the soul be damned. It is an odd and ironic thing that most of the material power in our world often resides in the hands of younger souls. Still working in the egoic and material realms, they love the sensations of power and focus most of their energy on accumulation. Older souls tend not to be as materially driven. They have already played the worldly game in previous lives and they search for more subtle shades of meaning in this one—authentication rather than accumulation. They are often ignored by the culture at large, although they really are the truest warriors.
+Take that time in grad school when I spent 72 hours wrestling a Java program that kept crashing faster than a meme stock. My classmates swore they heard me mutter “cash flow statements” to the computer like a prayer. When I finally tamed it—using the same forensic focus I once applied to tax audits—my professor called it “elegant.” I didn’t confess that my “brilliant solution” was Version 28. The previous 27 attempts? Let’s just say GitHub’s servers now host a digital graveyard of my caffeine-fueled meltdowns.
 
-A soulful notion of success rests on the actualization of our innate image. Success is simply the completion of a soul step, however unsightly it may be. We have finished what we started when the lesson is learned. What a fear-based culture calls a wonderful opportunity may be fruitless and misguided for the soul. Staying in a passionless relationship may satisfy our need for comfort, but it may stifle the soul. Becoming a famous lawyer is only worthwhile if the soul demands it. It is an essential failure if you are called to be a monastic this time around. If you need to explore and abandon ten careers in order to stretch your soul toward its innate image, then so be it. Flake it till you make it.
+People call this “career pivoting.” I call it creative trespassing. At Vanguard, I spoke Excel fluently. Now I whisper sweet nothings to SQL databases. My secret sauce? Treating code like a rebellious balance sheet: if it won’t add up, audit it harder. Those “automated workflows” on my resume? Born from nights where I recycled accounting precision into Python scripts—think of it as repurposing a calculator into a rocket launcher.
+
+So yes, I’ve faked it. I’ve Googled “what is a compiler” mid-Zoom call. I’ve pasted code I barely understood like a kid gluing macaroni to construction paper. But here’s the twist: faking it taught me to hybridize, not impersonate. My dropdown menus work because I once designed bulletproof audit trails. My search bars run fast because I learned to optimize algorithms like stock portfolios—cutting the fluff, doubling down on value.
+
+Turns out, the best tech solutions aren’t built by purists. They’re built by former spreadsheet warlocks who see data structures as puzzles and bugs as… well, tax season.

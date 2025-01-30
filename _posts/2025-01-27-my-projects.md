@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Projects
-subtitle: Personal projects for 2025
+subtitle: Personal projects for 2025 Spring
 cover-img: /assets/img/project_photo.jpg
 thumbnail-img: /assets/img/project_photo.jpg
 # share-img: /assets/img/path.jpg
@@ -9,10 +9,48 @@ tags: [coding projects, programming languages]
 author: Emily Qiu
 ---
 
-Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?
+Coding as a Mirror: When Pixels Taught Me to Speak
+The night I watched my dropdown menu unfold like a digital flower—smoothly, confidently—I finally understood: code breathes life.
 
-The truth is that no one else can definitively know the path we are here to walk. It’s tempting to listen—many of us long for the omnipotent other—but unless they are genuine psychic intuitives, they can’t know. All others can know is their own truth, and if they’ve actually done the work to excavate it, they will have the good sense to know that they cannot genuinely know anyone else’s. Only soul knows the path it is here to walk. Since you are the only one living in your temple, only you can know its scriptures and interpretive structure.
+My Dance with the Dropdown
+When my first prototype snapped open like a broken jack-in-the-box, I spent hours dissecting CSS transitions. Then it happened—cubic-bezier(0.4, 0, 0.2, 1) became my magic incantation. The moment backdrop-filter: blur(10px) transformed jagged edges into frosted glass, I felt like a wizard conjuring digital realities.
 
-At the heart of the struggle are two very different ideas of success—survival-driven and soul-driven. For survivalists, success is security, pragmatism, power over others. Success is the absence of material suffering, the nourishing of the soul be damned. It is an odd and ironic thing that most of the material power in our world often resides in the hands of younger souls. Still working in the egoic and material realms, they love the sensations of power and focus most of their energy on accumulation. Older souls tend not to be as materially driven. They have already played the worldly game in previous lives and they search for more subtle shades of meaning in this one—authentication rather than accumulation. They are often ignored by the culture at large, although they really are the truest warriors.
+That menu taught me to listen to silence—the 0.4s before options appear matters more than the code itself. The Shape-Shifting Search Bar Rebellion
+"Search buttons don't need personality," they said. My CSS disagreed.
 
-A soulful notion of success rests on the actualization of our innate image. Success is simply the completion of a soul step, however unsightly it may be. We have finished what we started when the lesson is learned. What a fear-based culture calls a wonderful opportunity may be fruitless and misguided for the soul. Staying in a passionless relationship may satisfy our need for comfort, but it may stifle the soul. Becoming a famous lawyer is only worthwhile if the soul demands it. It is an essential failure if you are called to be a monastic this time around. If you need to explore and abandon ten careers in order to stretch your soul toward its innate image, then so be it. Flake it till you make it.
+I made circles melt into bars through midnight battles with border-radius. When my pseudo-elements finally danced in perfect sync—:before swooping like a swallow, :after mirroring its path—I realized: every pixel is a storyteller. That rebellious button became my manifesto: interfaces should delight, not just function.
+
+"Bruises That Became Badges" - 
+That time Chrome DevTools broke me
+"60fps or die trying," I whispered during animation jitters. will-change: transform became my shield.
+
+The missing </button> that changed everything
+One unclosed tag shattered my layout. Now I write semantic HTML like love letters to screen readers.
+
+"Git saves more than code" - 
+When box-shadow apocalypse struck, Git branches became my time machine.
+
+My New Language:
+These projects aren't just code—they're my Rosetta Stone:
+
+To recruiters: "See how I tamed CSS transforms?"
+
+To professors: "Watch DOM trees mirror our algorithm lessons."
+
+To myself at 3 AM: "You built this."
+
+When an interviewer asked, "How would you optimize this animation?" I grinned—my dropdown's frame rate wars had prepared me for this moment.
+
+Tomorrow's Canvas
+Now I dream in components:
+
+Web Components whispering "Reuse me";
+
+Voice search APIs begging for integration;
+
+Jest test suites waiting to be conquered.
+
+"A Coder's Confession" - 
+I used to think code was cold logic. Now I know: every transition-timing-function holds a heartbeat, every :hover hides a secret handshake. These projects? They're my first love letters to the digital universe—clumsy, passionate, alive.
+
+When screens glow with my creations, I don't just see code. I see my voice, pixel by pixel.
