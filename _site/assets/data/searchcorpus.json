@@ -50,6 +50,14 @@
 }, 
  
 { 
+"title"    : "Project", 
+"desc"     : "Project", 
+"category" : "page", 
+"url"      : "/project/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
 "title"    : "Tag Index", 
 "desc"     : "Tag Index", 
 "category" : "page", 
