@@ -1,69 +1,122 @@
 ---
-layout: default
-bodyClass: "page-home"
+layout: page
 ---
 
-<div class="intro">
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        {{ content }}
-        {% if page.show_call_box %}
-          {% include call.html show_button=true %}
+{{ content }}
+
+{% assign posts = paginator.posts | default: site.posts %}
+
+<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+<ul class="posts-list list-unstyled" role="list">
+  {% for post in posts %}
+  <li class="post-preview">
+    <article>
+
+      {%- capture thumbnail -%}
+        {% if post.thumbnail-img %}
+          {{ post.thumbnail-img }}
+        {% elsif post.cover-img %}
+          {% if post.cover-img.first %}
+            {{ post.cover-img[0].first.first }}
+          {% else %}
+            {{ post.cover-img }}
+          {% endif %}
+        {% else %}
         {% endif %}
-      </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+      {% endcapture %}
+      {% assign thumbnail=thumbnail | strip %}
+
+      {% if site.feed_show_excerpt == false %}
+      {% if thumbnail != "" %}
+      <div class="post-image post-image-normal">
+        <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+        </a>
       </div>
       {% endif %}
-    </div>
-  </div>
-</div>
+      {% endif %}
 
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
-        </div>
+      <a href="{{ post.url | absolute_url }}">
+        <h2 class="post-title">{{ post.title | strip_html }}</h2>
+
+        {% if post.subtitle %}
+          <h3 class="post-subtitle">
+          {{ post.subtitle | strip_html }}
+          </h3>
+        {% endif %}
+      </a>
+
+      {% if post.author %}
+        <span>By <strong>{{ post.author | strip_html }}</strong></span>
+      {% endif %}
+      <p class="post-meta">
+        {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+        Posted on {{ post.date | date: date_format }}
+      </p>
+
+      {% if thumbnail != "" %}
+      <div class="post-image post-image-small">
+        <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+        </a>
       </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
+      {% endif %}
+
+      {% unless site.feed_show_excerpt == false %}
+      {% if thumbnail != "" %}
+      <div class="post-image post-image-short">
+        <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+        </a>
       </div>
-    </div>
-  </div>
-</div>
+      {% endif %}
 
-{% if site.data.features %}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
-        </div>
+      <div class="post-entry">
+        {% assign excerpt_length = site.excerpt_length | default: 50 %}
+        {{ post.excerpt | strip_html | truncatewords: excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post.content != post.excerpt or excerpt_word_count > excerpt_length %}
+          <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
       </div>
-      {% endfor %}
+      {% endunless %}
 
-    </div>
-  </div>
-</div>
+      {% if site.feed_show_tags != false and post.tags.size > 0 %}
+      <div class="blog-tags">
+        <span>Tags:</span>
+        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+        <ul class="d-inline list-inline" role="list">
+          {% for tag in post.tags %}
+          <li class="list-inline-item">
+            <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+    </article>
+  </li>
+  {% endfor %}
+</ul>
+
+{% if paginator.total_pages > 1 %}
+<ul class="pagination main-pager">
+  {% if paginator.previous_page %}
+  <li class="page-item previous">
+    <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">
+      <i class="fas fa-arrow-left" alt="Newer Posts"></i>
+      <span class="d-none d-sm-inline-block">Newer Posts</span>
+    </a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="page-item next">
+    <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">
+      <span class="d-none d-sm-inline-block">Older Posts</span>
+      <i class="fas fa-arrow-right" alt="Older Posts"></i>
+    </a>
+  </li>
+  {% endif %}
+</ul>
 {% endif %}
