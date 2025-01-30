@@ -1,6 +1,14 @@
 [ 
  
 { 
+"title"    : "Projects", 
+"desc"     : "Projects", 
+"category" : "coding projects, programming languages", 
+"url"      : "/2025-01-27-my-projects/", 
+"date"     : "January 27, 2025" 
+}, 
+ 
+{ 
 "title"    : "Sample Post", 
 "desc"     : "Sample Post", 
 "category" : "books, test", 
