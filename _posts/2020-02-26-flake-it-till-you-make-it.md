@@ -5,7 +5,8 @@ subtitle: Excerpt from Soulshaping by Jeff Brown
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/smile.jpg
 share-img: /assets/img/path.jpg
-tags: [books, test]
+tags: [project, test]
+tags: [Project]
 author: Emily Qiu
 ---
 

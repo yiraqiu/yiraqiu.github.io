@@ -11,7 +11,7 @@ My name is Emily Qiu. I have the following qualities:
 
 What else do you need?
 
-![Crepe](/assets/img/person_profile.jpeg)
+![Person Profile](/assets/img/person_profile.jpeg)
 
 ### My story
 <!-- 
