@@ -1,13 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: 🔍 Ex-Finance Analyst Now Debugging Tech Ecosystems
 ---
 
 My name is Emily Qiu. I have the following qualities:
 
-- I am a finance expert
-- I love front end web development
+- I was a finance strategist
+- I love frontend web development
 
 What else do you need?
 
