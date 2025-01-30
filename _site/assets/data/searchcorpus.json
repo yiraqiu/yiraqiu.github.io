@@ -50,8 +50,8 @@
 }, 
  
 { 
-"title"    : "Project", 
-"desc"     : "Project", 
+"title"    : "Projects", 
+"desc"     : "Projects", 
 "category" : "page", 
 "url"      : "/project/", 
 "date"     : "January 1, 1970" 

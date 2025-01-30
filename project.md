@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Project
-subtitle: This is my current project
+title: Projects
+subtitle: These are my current projects
 ---
 
 This is my projects:
 
-1
-2
+1: dropdown menu
+2: search bar experiment
 3
 4
 5
@@ -22,5 +22,9 @@ This is my projects:
 <!-- ![Person Profile](/assets/img/person_profile.jpeg) -->
 
 ### My story
-<!-- 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions. -->
+
+The dropdown menu project taught me to blend JavaScript's classList.toggle() with CSS transitions, creating smooth animations. Implementing backdrop-filter: blur(10px) revealed how visual hierarchy elevates user experience.
+
+The search bar experiment demonstrated CSS's transformative power. By manipulating border-radius and pseudo-elements, I engineered a button that morphs between a circle and a bar—proving interfaces can convey emotion through motion.
+
+
