@@ -9,22 +9,6 @@
 }, 
  
 { 
-"title"    : "Sample Post", 
-"desc"     : "Sample Post", 
-"category" : "books, test", 
-"url"      : "/2025-01-26-sample_post/", 
-"date"     : "January 26, 2025" 
-}, 
- 
-{ 
-"title"    : "Sample blog post to learn markdown tips", 
-"desc"     : "Sample blog post to learn markdown tips", 
-"category" : "test", 
-"url"      : "/2020-02-28-sample-markdown/", 
-"date"     : "February 28, 2020" 
-}, 
- 
-{ 
 "title"    : "Fake it till you make it", 
 "desc"     : "Fake it till you make it", 
 "category" : "story", 
