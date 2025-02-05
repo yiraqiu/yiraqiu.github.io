@@ -6,16 +6,16 @@ subtitle: These are my current projects
 
 This is my projects:
 
-1: dropdown menu
-2: search bar experiment
-3
+1: Custom dropdown menu
+2: Search bar experiment
+3: Five star rating interactive function
 4
 5
 
 <!-- My name is Emily Qiu. I have the following qualities: -->
 
-<!-- - I am a finance expert -->
-<!-- - I love front end web development -->
+<!-- - I am a finance expert in Fintech -->
+<!-- - I love frontend web development -->
 
 <!-- What else do you need? -->
 
@@ -27,4 +27,4 @@ The dropdown menu project taught me to blend JavaScript's classList.toggle() wit
 
 The search bar experiment demonstrated CSS's transformative power. By manipulating border-radius and pseudo-elements, I engineered a button that morphs between a circle and a bar—proving interfaces can convey emotion through motion.
 
-
+The five star rating dynamic function was created by using HTML/CSS, featuring hover-triggered labels and animated star transitions for intuitive feedback submission. Byimproving clarity and engagement, it enhanced user interaction through smooth visual cues like color changes and tooltips.
